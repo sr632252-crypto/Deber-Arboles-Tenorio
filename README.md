@@ -123,3 +123,12 @@ java -cp bin app.PruebasBiblioteca
 - **`desdePreorden(int[])` (extra):** reconstruye el ABB en O(n) usando límites y un índice compartido, sin llamar
   a `insertar` por cada valor.
 - **`modificar`:** valida todos los datos antes de cambiar el libro, para no dejarlo modificado a medias.
+
+## 6. Resultados
+
+| Verificación | Resultado |
+|---|---|
+| `PruebasBiblioteca` | 16/16 pruebas OK |
+| Estructura inicial | 7 unidades, altura 2, 4 hojas y 13 libros |
+| ABB resuelto a mano (códigos 51, 15 y 54) | Coincide con la salida del programa ([TRAZAS.md](TRAZAS.md)) |
+| Eliminación en sus 3 casos (hoja, un hijo, dos hijos) | Coincide y el ABB sigue siendo válido |
