@@ -94,7 +94,21 @@ java -cp bin app.PruebasBiblioteca
  0. Salir
 ```
 
-## 4. Captura de PruebasBiblioteca
+## 4. Capturas de ejecución
+
+### Jerarquía de la biblioteca
+
+![Jerarquía de la biblioteca](docs/captura-jerarquia.png)
+
+### Recorridos con su traza
+
+![Recorridos con traza](docs/captura-trazas.png)
+
+### Retos
+
+![Retos](docs/captura-retos.png)
+
+### PruebasBiblioteca
 
 ![Ejecución de PruebasBiblioteca](docs/captura-pruebas.png)
 
